@@ -1,1 +1,22 @@
 /* You can add global styles to this file, and also import other style files */
+
+body {
+    background-color: #24272C ;
+    color: white;
+    margin-top: 15px;
+}
+
+h2 {
+    font-size: 40px;
+    margin-top: 15px;
+}
+
+textarea, input, button {
+    padding: 5px;
+    font-size: 15px;
+    border-radius: 5px;
+}
+
+textarea, input[type="text"] {
+    background-color: #B5A8A1;
+}

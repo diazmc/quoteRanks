@@ -2,9 +2,10 @@
 
 
 <div class='quote' *ngFor="let quote of myQuote">
-
-    <p>Quote: "{{quote.text}}"</p> 
-    <p>Author: - {{quote.author}}</p> 
+    <blockquote class="blockquote text-left">
+        <p class="mb-0">"{{quote.text}}"</p> 
+        <footer class="blockquote-footer">{{quote.author}}</footer> 
+    </blockquote>
     <p>Votes: {{quote.vote}}</p>
     <button class="up" (click)='voteUp(quote)'>Vote Up</button>
     <button class="down" (click)='voteDown(quote)'>Vote Down</button>

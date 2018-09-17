@@ -8,8 +8,8 @@ import { Component } from '@angular/core';
 export class AppComponent {
   quotes = [
     {
-    text: 'Hello',
-    author: 'MC',
+    text: 'I think it is possible for ordinary people to choose to be extraordinary.',
+    author: 'Elon Musk',
     vote: 0
     }
   ];
